@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  component: MyString
+  language: MyString
+  new_changed_word: 1
+  total_word: 1
+  due_date: 2013-10-16
+  project_manager: MyString
+
+two:
+  component: MyString
+  language: MyString
+  new_changed_word: 1
+  total_word: 1
+  due_date: 2013-10-16
+  project_manager: MyString

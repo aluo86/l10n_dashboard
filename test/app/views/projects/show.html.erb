@@ -1,0 +1,39 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Component:</strong>
+  <%= @project.component %>
+</p>
+
+<p>
+  <strong>Language:</strong>
+  <%= @project.language %>
+</p>
+
+<p>
+  <strong>New changed word:</strong>
+  <%= @project.new_changed_word %>
+</p>
+
+<p>
+  <strong>Total word:</strong>
+  <%= @project.total_word %>
+</p>
+
+<p>
+  <strong>Due date:</strong>
+  <%= @project.due_date %>
+</p>
+
+<p>
+  <strong>Project manager:</strong>
+  <%= @project.project_manager %>
+</p>
+
+<p>
+  <strong>Status:</strong>
+  <%= @project.status %>
+</p>
+
+<%= link_to 'Edit', edit_project_path(@project) %> |
+<%= link_to 'Back', projects_path %>
